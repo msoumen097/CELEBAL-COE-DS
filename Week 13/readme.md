@@ -38,7 +38,7 @@ Deployment on Azure
 To deploy this application on Azure:
 
 ## Create an Azure Web App:
-.images_/Screenshot 2024-08-17 174346 1.png
+./images_/Screenshot 2024-08-17 174346 1.png
 ## Go to the Azure Portal.
 Create a new Web App and choose the appropriate configuration for your Flask application.
 Deploy your application:
