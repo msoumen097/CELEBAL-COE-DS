@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loan Approval Predictor</title>
+    <style>
+        /* Custom CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #282c34;
+            padding: 1.5rem;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcb05;
+        }
+
+        .hero-section {
+            background: url('../static/home_icon.jpg') no-repeat center center;
+            background-size: cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            background-blend-mode: overlay;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-section a {
+            background-color: #ffcb05;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero-section a:hover {
+            background-color: #ffc107;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Loan Approval Predictor</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/predict">Prediction</a>
+</nav>
+
+<section class="hero-section">
+    <div>
+        <h1>Predict Your Loan Approval</h1>
+        <p>Our easy-to-use interface helps you predict loan approval status in just a few clicks.</p>
+        <a href="/predict">Get Started</a>
+    </div>
+</section>
+
+<div class="container">
+    <h2>Welcome to the Loan Approval Predictor</h2>
+    <p>Using advanced machine learning models, our predictor provides a reliable estimation of loan approval chances based on your input. This tool is designed to help you understand your loan application status before submission.</p>
+</div>
+
+</body>
+</html>
