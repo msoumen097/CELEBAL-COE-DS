@@ -38,14 +38,14 @@ Deployment on Azure
 To deploy this application on Azure:
 
 ## Create an Azure Web App:
-![](./images/s1.png)
+![1](./images_/s1.png)
 ## Go to the Azure Portal.
 Create a new Web App and choose the appropriate configuration for your Flask application.
 Deploy your application:
 .images_/Screenshot 2024-08-17 174346 1.png
 Use Azure CLI, GitHub Actions, or any other deployment method to push your code to the Azure Web App.
 ## Configure Environment Variables:
-![](./images/s2.png)
+![](./images_/s2.png)
 Ensure all necessary environment variables and configurations are set up in Azure.
 ## Access your web application:
 
