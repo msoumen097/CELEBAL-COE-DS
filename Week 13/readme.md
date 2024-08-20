@@ -38,14 +38,28 @@ Deployment on Azure
 To deploy this application on Azure:
 
 ## Create an Azure Web App:
-![1](./images_/s1.png)
+1) Navigate to Azure Portal:
+2) Log in to the Azure Portal.
+3) Create a New Resource:
+4) Search for "App Service" and create a new App Service.
+5) Choose the Subscription, Resource Group, and Name your Web App.
+6) Select the Runtime Stack (Python version).
+7) Choose a Region close to your users.
+8) Review and Create.
+9) Set Pricing Tier:
+![1](./images_/a1.png)
+Under Plan, click on Create new.
+App Service Plan: Choose the Free (F1) tier.
+Click Apply and then Review + create.
+
+![2](./images_/s1.png)
 ## Go to the Azure Portal.
 Create a new Web App and choose the appropriate configuration for your Flask application.
 Deploy your application:
 .images_/Screenshot 2024-08-17 174346 1.png
 Use Azure CLI, GitHub Actions, or any other deployment method to push your code to the Azure Web App.
 ## Configure Environment Variables:
-![](./images_/s2.png)
+![3](./images_/s2.png)
 Ensure all necessary environment variables and configurations are set up in Azure.
 ## Access your web application:
 
